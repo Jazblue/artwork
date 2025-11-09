@@ -8,45 +8,34 @@
 
 <section>
 <h2 style="text-align: center;">My Video</h2>
-<video width="640" controls style="display:block; margin:0 auto;">
-    <source src="video/proj.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</section>
-<section>
-<h2 style="text-align: center;">My Video</h2>
-<video width="640" controls style="display:block; margin:0 auto;">
-    <source src="video/amberandjason.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</section>
-<section>
-<h2 style="text-align: center;">My Video</h2>
-<video width="640" controls style="display:block; margin:0 auto;">
-    <source src="video/jasoncvvideos.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</section>
-<section>
-<h2 style="text-align: center;">My Video</h2>
-<video width="640" controls style="display:block; margin:0 auto;">
-    <source src="video/jhdogs.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</section>
-<h2 style="text-align: center;">My Video</h2>
-<video width="640" controls style="display:block; margin:0 auto;">
+<section class="video-container">
+  <h2 style="text-align: center;">My Videos</h2>
+
+  <video width="640" height="360" controls>
     <source src="video/zombie.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</section>
-<section>
-<h2 style="text-align: center;">My Video</h2>
-<video width="640" controls style="display:block; margin:0 auto;">
+
+  <video width="640" height="360" controls>
     <source src="video/rocket.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div>
+
+  <video width="640" height="360" controls>
+    <source src="video/amber.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+<style>
+.video-container {
+  display: flex;
+  flex-direction: column; /* Stack videos vertically */
+  align-items: center;    /* Center videos horizontally */
+  gap: 20px;              /* Space between videos */
+}
+</style>
+
 </selection>
   <style>
 .video-container {
@@ -55,10 +44,6 @@
   align-items: center;    /* Center videos horizontally */
   gap: 20px;              /* Space between videos */
 }
-    <video width="640" height="360" controls>
-  <source src="amber.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 </style>
   
