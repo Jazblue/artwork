@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /video/
+Disallow: /page2.html
+
+Sitemap: https://jazblue.github.io/artwork/sitemap.xml
