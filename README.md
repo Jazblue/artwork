@@ -14,7 +14,7 @@ Live at: https://jazblue.github.io/artwork
   - Includes Jason CV videos, dog videos, raver visuals, etc.
 - `index.html` — Main artwork page with embedded videos and image gallery
 - `page2.html` — Secondary page with cat/dog humor theme
-- `counter.js` — Visitor counter (hits countapi.mileshilliard.com)
+- `counter.js` — Visitor counter placeholder (countapi.mileshilliard.com is dead)
 
 ## Contents
 - Picture gallery with diverse themes (tech, art, lifestyle, etc.)
